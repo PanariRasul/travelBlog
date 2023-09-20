@@ -216,10 +216,10 @@ li {
     -webkit-backdrop-filter:blur(10.5px) ;
     padding: 10px 100px;
     border-bottom: 1px solid rgba(65, 65, 65, 0.7);
-    /* position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999; */
+    z-index: 9999;
 }
 
 /* logo  */
@@ -307,6 +307,83 @@ li {
     column-gap: 1.7rem;
     animation: slideRightToLeft 4s ease-out 1;
 }
+
+/* Footer section */
+
+footer{
+    background: rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter:blur(10.5px) ;
+}
+.footerContainer{
+    width:100%;
+    padding: 70px 30px 20px;
+    background-color:rgb(117, 117, 118);
+}
+.socialicon{
+    display: flex;
+    justify-content: center;
+}
+.socialicon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:#a7a7a7;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialicon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.8;
+
+}
+.socialicon a:hover{
+    background-color: #1c1c1c;
+    transition: 0.5s;
+}
+
+
+.socialicon a:hover i{
+    color: #a7a7a7;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color: #251e1e;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0,.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: #e2e2e2;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+
+
 
 /* Animation Section */
 /* left to right */
