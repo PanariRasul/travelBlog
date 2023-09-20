@@ -139,6 +139,7 @@ li {
 
 
 
+
 /* Global Tag Section */
 .tag_section{
     width: 100%;
@@ -317,8 +318,10 @@ footer{
 }
 .footerContainer{
     width:100%;
-    padding: 70px 30px 20px;
+    height: 200px;
+    padding: 30px 30px 20px;
     background-color:rgb(117, 117, 118);
+    
 }
 .socialicon{
     display: flex;
@@ -367,8 +370,9 @@ footer{
     opacity: 1;
 }
 .footerBottom{
-    background-color: black;
-    padding: 20px;
+    background-color:rgba(0, 0, 0, 0.703);
+    padding: 10px;
+    height: 40px;
     text-align: center;
 }
 .footerBottom p{
@@ -887,6 +891,13 @@ footer{
 
 .submit_btn{
     border-radius: 4px !important;
+}
+
+.reset_btn{
+    display: inline;
+    width: 100px;
+    border-radius: 4px !important;
+    margin-left: 30px;
 }
 
 
