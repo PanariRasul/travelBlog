@@ -320,7 +320,7 @@ footer{
     width:100%;
     height: 200px;
     padding: 30px 30px 20px;
-    background-color:rgb(117, 117, 118);
+    background-color:rgb(255, 255, 255);
     
 }
 .socialicon{
@@ -1277,5 +1277,13 @@ footer{
     }
 }
 
+.text_section h3 {
+    margin-top: 10px;
+}
 
+.text_section h3 b{
+    color: var(--secondary);
+    margin-left: 3PX;
+    margin-right: 3PX;
+}
 
